@@ -100,5 +100,6 @@
     <fragment
         android:id="@+id/tutorialFragment"
         android:name="com.InformationApplication.Awai.TutorialFragment"
-        android:label="@string/tutorial" />
+        android:label="@string/tutorial"
+        tools:layout="@layout/fragment_tutorial"/>
 </navigation>
