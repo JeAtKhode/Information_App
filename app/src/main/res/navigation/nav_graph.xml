@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.InformationApplication.Awai.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_learn_More_1"
+            app:destination="@id/learn_More_1" />
+        <action
+            android:id="@+id/action_homeFragment_to_learn_More_2"
+            app:destination="@id/learn_More_2" />
+        <action
+            android:id="@+id/action_homeFragment_to_learn_More_3"
+            app:destination="@id/learn_More_3" />
+        <action
+            android:id="@+id/action_homeFragment_to_learn_More_4"
+            app:destination="@id/learn_More_4" />
+        <action
+            android:id="@+id/action_homeFragment_to_quizFragment2"
+            app:destination="@id/quizFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.InformationApplication.Awai.AboutUsFragment"
+        android:label="@string/aboutUs"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/learn_More_1"
+        android:name="com.InformationApplication.Awai.Learn_More_1"
+        android:label="@string/info1_title"
+        tools:layout="@layout/fragment_about_escorting"/>
+    <fragment
+        android:id="@+id/learn_More_2"
+        android:name="com.InformationApplication.Awai.Learn_More_2"
+        android:label="@string/info2_title"
+        tools:layout="@layout/fragment_process_escorting"/>
+    <fragment
+        android:id="@+id/learn_More_3"
+        android:name="com.InformationApplication.Awai.Learn_More_3"
+        android:label="@string/info3_title"
+        tools:layout="@layout/fragment_legal_parents"
+        />
+    <fragment
+        android:id="@+id/learn_More_4"
+        android:name="com.InformationApplication.Awai.Learn_More_4"
+        android:label="@string/info4_title"
+        tools:layout="@layout/fragment_legal_gardian" />
+    <fragment
+        android:id="@+id/aboutkauri"
+        android:name="com.InformationApplication.Awai.AboutKauriFragment"
+        android:label="@string/about_kauri"
+        tools:layout="@layout/fragment_about_kauri" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.InformationApplication.Awai.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash"
+        >
+        <action
+            android:id="@+id/action_splashFragment_to_disclaimerFragment"
+            app:destination="@id/disclaimerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/disclaimerFragment"
+        android:name="com.InformationApplication.Awai.DisclaimerFragment"
+        android:label="DisclaimerFragment"
+        tools:layout="@layout/fragment_disclaimer">
+        <action
+            android:id="@+id/action_disclaimerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment2"
+        android:name="com.InformationApplication.Awai.QuizFragment"
+        android:label="@string/quiz"
+        tools:layout="@layout/fragment_quiz">
+        <action
+            android:id="@+id/action_quizFragment2_to_resultFragment22"
+            app:destination="@id/resultFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment2"
+        android:name="com.InformationApplication.Awai.ResultFragment"
+        android:label="@string/results"
+        tools:layout="@layout/fragment_quiz_results">
+        <action
+            android:id="@+id/action_resultFragment2_to_quizFragment2"
+            app:destination="@id/quizFragment2" />
+        <action
+            android:id="@+id/action_resultFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

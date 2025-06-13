@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">InformationApp</string>
+    <string name="navigation_drawer_open">Tuwhera tahua whakatere</string>
+    <string name="navigation_drawer_close">Katia tahua whakatere</string>
+
+    <!-- About Us -->
+    <string name="team_image_desc">Atahanga Rōpū</string>
+    <string name="section_1_title">Tēnā koe</string>
+    <string name="section_1_body">Ko mātou ngā Kaitiaki o te Kākāpō e waihanga ana i tētahi taupānga hei tautoko i a Oranga Tamariki i ngā tangohanga haumaru o ngā tamariki. Ko tā mātou whāinga he whakapai ake i te tukunga atu o te pārongo i te wā e kawea atu ana tētahi tamaiti i tētahi taiao mōrearea. E hiahia ana mātou kia māmā ake ēnei wā uaua, kia mārama hoki ki te katoa.</string>
+    <string name="section_2_title">To mātou Whāinga</string>
+    <string name="section_2_body">Ko tā mātou whāinga he tautoko i ngā tamariki, ngā whānau, me ngā kaimahi i ngā mahi haumaru mā te tuku pārongo māmā, mārama, me te rangimārie mā te taupānga. E hiahia ana mātou ki te whakaiti i te taumahatanga me te rangirua, kia āwhina i te whakahaere i ngā tangohanga kia tau, kia mōhio hoki.</string>
+
+    <!-- Info 1 -->
+    <string name="info1_title">Ako mō te Kawe</string>
+    <string name="info1_body">Ko te kawe he tukanga e nekehia ai ngā tamariki, rangatahi rānei i tō rātou kāinga nā runga i ngā take haumaru, ture hoki.\n\n<b>Ngā momo Kawe:</b>\n• Kawe ohorere – ka puta i te wā he mōrearea tonu kei te tamaiti.\n• Kawe i whakamaheretia – ka mahia i muri i te arotakenga me te whakamahere tahi me te whānau, kāwanatanga.\n• Kawe ā-tau – mō te wā poto hei tiaki i te tamaiti.\n• Kawe whai mana – i raro i te mana whakahaere a Oranga Tamariki.\n\n<b>Whakamārama:</b>\n\n<b>He Aha te Kawe?</b>\nKo te kawe he ārahi me te whakahaere i te neke o ngā tamariki hei tiaki i tō rātou oranga. Ka whakamahia i ngā wā pērā i te neke atu i ngā wāhi haumaru, haere mā runga waka rererangi, rānei, i runga anō i te arotakenga mōrearea.\n\n<b>Āhea ka hiahiatia ai?</b>\nKa hiahiatia te kawe ina:\n• Kei te mōrearea te taiao e noho ana te tamaiti.\n• Me neke atu rātou ki tētahi atu kāinga haumaru.\n• Ka kitea i te arotakenga he take nui te kawe.\n\n<b>Ngā Tukanga</b>\n• Me whai whakaaetanga mai i te kaiwhakahaere.\n• Me rua pea ngā kaimahi kawe kua whakangungua.\n• Me aro ki te ira, te ahurea, me ngā matea motuhake.\n• Me whakamōhio i te tamaiti me te whānau mō ngā whakamahere, mena ka taea.\n• Ka taea hoki te whakamahi i te hui ā-ataata hei whakakapi.</string>
+
+    <!-- Info 2 -->
+    <string name="info2_title">Te Tukanga o te Kawe</string>
+    <string name="info2_body">E whai ana te kawe i tētahi tukanga ture hei tiaki i ngā motika o te tamaiti.\n\n<b>1. Arotake me te Mahere</b>\nKa arotakehia te haumaru me ngā mōrearea, kātahi ka mahia he mahere.\n\n<b>2. Pānui me te Whakaaetanga</b>\nKa whakamōhiotia te whānau me te whai wā ki te whai wāhi, ki te whakaae rānei.\n\n<b>3. Whakamanatanga Ture</b>\nKa hiahiatia pea he whakahau a te kooti hei whakahaere i te kawe.\n\n<b>4. Whakahaere Kawe</b>\nKa kawea te tamaiti e ngā kaimahi kua whakangungua i raro i ngā tikanga tika.\n\n<b>5. Arotake me te Tautoko</b>\nKa arotakehia te kawe me te tuku tautoko ki te whānau i muri mai.</string>
+
+    <!-- Info 3 -->
+    <string name="info3_title">Ngā Motika o ngā Mātua</string>
+    <string name="info3_body"><b>Ina tīmata te kawe a Oranga Tamariki</b>, me mōhio ngā mātua ki ō rātou motika.\n\n<b>Mōhio:</b> Me whakamōhiotia ngā mātua i te tīmatanga o te tukanga.\n<b>Whai wāhi:</b> Me āhei ngā mātua ki te whai wāhi ki ngā whakataunga.\n<b>Tautoko ture:</b> Me āhei ki te rōia, me te āwhina ture mena e tika ana.\n<b>Wero i ngā whakataunga:</b> Ka taea e ngā mātua te tono ki te Kōti Whānau mēnā kāore rātou i te whakaae.\n<b>Whakapā:</b> Me āhei ki te whakapā atu ki te tamaiti mena e pai ana ki te oranga o te tamaiti.\n<b>Ratonga tautoko:</b> Ka āhei hoki ki ngā ratonga pērā i te whāngai āwhina, ngā hōtaka mātua hoki.</string>
+
+    <!-- Info 4 -->
+    <string name="info4_title">Ngā Motika o ngā Kaitiaki</string>
+    <string name="info4_body">He wāhi nui tō ngā kaitiaki i te tiaki i te tamaiti. He motika anō hoki tō rātou.\n\n<b>Mōhio:</b> Me whakamōhiotia rātou mō te kawe.\n<b>Kōrero:</b> Me āhei ki te kī atu i ō rātou whakaaro me ngā māharahara.\n<b>Tautoko:</b> Me tuku tautoko pērā i te tohutohu ture me te āwhina hinengaro.\n<b>Mōhiohio ture:</b> Me āhei ki te mōhiohio e pā ana ki ngā ture.\n<b>Whakaute:</b> Me whakaute i ngā kaitiaki, ā, me whakamanatia ā rātou mahi ki te tamaiti.</string>
+
+    <!-- Shared -->
+    <string name="label_info">Mō ētahi atu kōrero, haere ki</string>
+    <string name="link_oranga1">https://practice.orangatamariki.govt.nz/</string>
+    <string name="link_oranga2">https://practice.orangatamariki.govt.nz/</string>
+    <string name="link_oranga3">https://practice.orangatamariki.govt.nz/</string>
+    <string name="link_oranga4">https://practice.orangatamariki.govt.nz/</string>
+
+    <!-- About kauri -->
+    <string name="about_kauri">Mō Kauri</string>
+    <string name="back">Hoki</string>
+    <string name="about">Ehara a Kauri te Kākāpō i te āhua anake — ko ia te tohu o te haumaru, te arataki, me te whakamarie i te wā o te pōuritanga.\n\nI tupu a Kauri i tētahi ngahere whakamarumaru e kī ana i te manaaki me te whakawhirinaki. Ka rongo ia i ngā tamariki kei te raru, nā reira ka noho hei hoa whakamana mō rātou.\n\nKei roto ia i tēnei taupānga hei hoa māmā mō ngā tamariki kia mārama rātou ki ngā mea e pā ana ki a rātou. Mā ana kōrero me ngā āwhina, ka noho haumaru ake te tamaiti.\n\nAhakoa he iti, he tohu a Kauri mō te <b>maia, aroha, me te manawanui</b>.</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer_title">PANUI</string>
+    <string name="disclaimer">Ko ngā pārongo kei roto i tēnei taupānga he mōhiotanga whānui noa iho. Kāore mātou e kī ana he tika, he mārohirohi, he pono rānei ngā mōhiotanga katoa.\n\nMā te pāwhiri ki te "Whakaae", ka whakaae koe ki ngā herenga o tēnei panui.</string>
+    <string name="accept">Whakaae</string>
+
+    <!-- Splash -->
+    <string name="awai_title">AWAI</string>
+    <string name="app_title">Taupānga Pārongo</string>
+
+    <!-- Home -->
+    <string name="learnmore">AKO ANŌ</string>
+    <string name="info1_content">He tukanga haumaru te kawe hei tiaki i ngā tamariki e hāere ana me ngā mōrearea kei mua i a rātou.</string>
+    <string name="info2_content">Ka mahia he whakamahere, he arotake mōrearea, me te kōwhiri i ngā kaimahi kia haumaru te haerenga.</string>
+    <string name="info3_content">He motika tō ngā mātua kia mōhio, kia whai wāhi rānei, ahakoa ngā here a te kooti.</string>
+    <string name="info4_content">He tika tō ngā kaitiaki kia mōhio, kia whai wāhi hoki ki te oranga o te tamaiti, ahakoa te haerenga.</string>
+    <string name="quiz">Uiui</string>
+    <string name="welcome_home">Kia ora. Nau mai!</string>
+    <string name="learn_us">Ako tahi tātou</string>
+
+    <!-- lang toggle -->
+    <string name="lang">English</string>
+    <string name="aboutUs">Mō Mātou</string>
+    <string name="oranga">Oranga Tamariki</string>
+    <string name="massey">Te Kunenga ki Pūrehuroa</string>
+    <string name="emrgcy">Nama Waea Ohotata</string>
+    <string name="home">Kāinga</string>
+
+    <!-- Toolbar -->
+    <string name="quiz_title">UIUITANGA</string>
+
+    <!-- Navigation Buttons -->
+    <string name="button_back">&lt; HOKI</string>
+    <string name="button_next">MURI &gt;</string>
+
+    <!-- Sample Placeholder -->
+    <string name="sample_question">Tēnā tāuru i te pātai ki konei.</string>
+
+    <!-- Answer Choices -->
+    <string name="answer_true">TIKA</string>
+    <string name="answer_false">HĒ</string>
+
+    <!-- Quiz Format -->
+    <string name="question_label">Pātai %1$d: %2$s</string>
+
+    <!-- Questions -->
+    <string name="question1">Me rua neke atu ngā kaimahi ārahi kua whakangungua ki ngā tikanga whakatau raruraru me te haumaru mō ia ārahi hunga taiohi?</string>
+    <string name="question2">Me rite tonu te ira o ngā kaimahi ārahi ki te tamaiti, rangatahi rānei e ārahitia ana?</string>
+    <string name="question3">Mō ngā haerenga rererangi e pā ana ki te hunga taiohi, me whakamanatia tētahi kaimahi ārahi ki te kawe here me te mōhio ki te whakamahi?</string>
+    <string name="question4">Ka taea e ngā kaimahi ārahi te whakatutuki i ā rātou mahi ahakoa kāore he aromatawai mō te tūraru i mahia?</string>
+    <string name="question5">I te wā e ārahitia ana, ko te oranga tonutanga o te tamaiti, rangatahi rānei te aronga matua, tae atu ki ngā tūnga whakamaherehia me te whakamarie?</string>
+    <string name="question6">Mō ngā ārahi i muri i ngā haora mahi, me whai whakaaetanga mai i te National Contact Centre mēnā kāore i whakamaheretia te ārahi?</string>
+    <string name="question7">Ki te uru mai tētahi whare noho taiohi ki te ārahi mā runga rererangi, me whakangungua tētahi kaimahi ārahi ki te kawe here me te mōhio ki te whakamahi?</string>
+    <string name="question8">Me whakamahere me te tuhi i ngā tūnga katoa, tae atu ki ngā wā kai me ngā wā kaukau, e ngā kaimahi ārahi?</string>
+    <string name="question9">Me mātua whai waea pūhiko kī katoa me ngā taipitopito whakapā ohotata ngā kaimahi ārahi?</string>
+    <string name="question10">Me noho hei kawenga mā ngā kaimahi ārahi te tiaki i te tamaiti, rangatahi rānei i ngā wā katoa, tae atu ki ngā wā okioki?</string>
+
+
+    <string name="results">Ngā Hua</string>
+    <string name="correct">Tika</string>
+    <string name="incorrect">Hē</string>
+    <string name="firstquest">"Kua tae kē koe ki te pātai tuatahi!"</string>
+    <string name="lastquest">"Koinei te pātai whakamutunga!"</string>
+    <string name="score">Tohu</string>
+    <string name="total">Tapeke</string>
+
+    <string name="cong">Ngā mihi nui</string>
+    <string name="quizRes">Kua oti te whakamātautau</string>
+    <string name="febckmsg">Karere urupare</string>
+    <string name="rtry">Whakamātauria anō</string>
+    <string name="nity">He mahi nui!</string>
+    <string name="senty">Kei te pai koe!</string>
+    <string name="fity">Ehara i te kino! Kia kaha tonu.</string>
+    <string name="fail">Whakamātauria anō – ka tae atu koe!</string>
+    <string name="youscored">Kua whiwhi koe i te </string>
+    <string name="outof"> i roto i te </string>
+
+    <string name="langToast">Kua hurihia te reo ki te Reo Māori</string>
+
+
+</resources>

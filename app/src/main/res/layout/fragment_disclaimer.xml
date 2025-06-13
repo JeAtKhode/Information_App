@@ -1,0 +1,88 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_tiles">
+
+    <!-- ScrollView holding the disclaimer content -->
+    <ScrollView
+        android:id="@+id/disclaimer_scroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/accept_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- LinearLayout container for image and text -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <!-- Disclaimer icon -->
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/kakapo_warning"
+                android:contentDescription="Disclaimer Icon" />
+
+            <!-- Disclaimer title text -->
+            <TextView
+                android:text="@string/disclaimer_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000" />
+
+            <!-- Disclaimer body text -->
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:text="@string/disclaimer"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Change Language Button aligned bottom left -->
+    <Button
+        android:id="@+id/change_language"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lang"
+        android:layout_margin="16dp"
+        android:backgroundTint="#F9A825"
+        android:textColor="#FFFFFF"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/accept_button"
+        app:layout_constraintHorizontal_chainStyle="packed" />
+
+    <!-- Accept Button aligned bottom right -->
+    <Button
+        android:id="@+id/accept_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/accept"
+        android:layout_margin="16dp"
+        android:backgroundTint="#F9A825"
+        android:textColor="#FFFFFF"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/change_language"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

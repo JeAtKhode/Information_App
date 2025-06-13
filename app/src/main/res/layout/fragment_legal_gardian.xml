@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_tiles">
+
+    <!-- ScrollView to allow vertical scrolling of content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Container for all informational content -->
+        <LinearLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title TextView -->
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:text="@string/info4_title"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!-- Body content TextView -->
+            <TextView
+                android:id="@+id/bodyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:text="@string/info4_body"
+                android:textSize="20sp" />
+
+            <!-- Label for additional info or links -->
+            <TextView
+                android:id="@+id/extraLabelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="@string/label_info"
+                android:textSize="20sp" />
+
+            <!-- Link TextView with automatic web link detection -->
+            <TextView
+                android:id="@+id/linkTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/link_oranga4"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

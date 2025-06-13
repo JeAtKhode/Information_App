@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+
+        />
+    <item
+        android:id="@+id/emergencyHotline"
+        android:icon="@drawable/call"
+        android:title="@string/emrgcy" />
+    <item
+        android:id="@+id/orangaTamariki"
+        android:title="@string/oranga"
+        android:icon="@drawable/oranga"/>
+    <item
+        android:id="@+id/masseyUniversity"
+        android:title="@string/massey"
+        android:icon="@drawable/uni"/>
+    <item
+        android:id="@+id/aboutus"
+        android:title="@string/aboutUs"
+        android:icon="@drawable/aboutus"/>
+    <item
+        android:icon="@drawable/about"
+        android:id="@+id/aboutkauri"
+        android:title="@string/about_kauri" />
+    <item
+        android:id="@+id/language"
+        android:title="@string/lang"
+        android:icon="@drawable/lang"/>
+    
+</menu>

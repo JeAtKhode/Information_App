@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_tiles"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Welcome Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@drawable/owl_point_right" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/welcome_home"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/learn_us"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- LEARN ABOUT ESCORTING -->
+            <LinearLayout
+                android:id="@+id/layoutLearn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_background"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/baseline_info_24" />
+
+                    <TextView
+                        android:id="@+id/toggleLearn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/arrow_drop"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/info1_title"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--drop down learn about escorting-->
+                <LinearLayout
+                    android:id="@+id/learnContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_dropdown_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/info1_content"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/learnMoreBtnEscorting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/rounded_button"
+                        android:elevation="2dp"
+                        android:text="@string/learnmore"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- PROCESS OF ESCORTING -->
+            <LinearLayout
+                android:id="@+id/layoutProcess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_background"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/baseline_process_24" />
+
+                    <TextView
+                        android:id="@+id/toggleProcess"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/arrow_drop"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/info2_title"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--drop down for process of escorting-->
+                <LinearLayout
+                    android:id="@+id/processContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_dropdown_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/info2_content"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/learnMoreBtnProcess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/rounded_button"
+                        android:elevation="2dp"
+                        android:text="@string/learnmore"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- LEGAL RIGHTS OF PARENTS -->
+            <LinearLayout
+                android:id="@+id/layoutParents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_background"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/baseline_family_24" />
+
+                    <TextView
+                        android:id="@+id/toggleParents"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/arrow_drop"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/info3_title"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--drop down legal right of parents-->
+                <LinearLayout
+                    android:id="@+id/parentsContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_dropdown_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/info3_content"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/learnMoreBtnParents"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/rounded_button"
+                        android:elevation="2dp"
+                        android:text="@string/learnmore"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- LEGAL RIGHTS OF CAREGIVERS -->
+            <LinearLayout
+                android:id="@+id/layoutCaregivers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_background"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="46dp"
+                        android:layout_marginEnd="8dp"
+                        android:src="@drawable/baseline_caregiver_24" />
+
+                    <TextView
+                        android:id="@+id/toggleCaregivers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:drawableEnd="@drawable/arrow_drop"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:padding="8dp"
+                        android:text="@string/info4_title"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!--drop down legal rights of caregivers-->
+                <LinearLayout
+                    android:id="@+id/caregiversContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_dropdown_bg"
+                    android:orientation="vertical"
+                    android:paddingTop="8dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/info4_content"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/learnMoreBtnCaregiver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/rounded_button"
+                        android:elevation="2dp"
+                        android:text="@string/learnmore"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Quiz Button -->
+            <LinearLayout
+                android:id="@+id/btnQuizWrapper"
+                android:layout_width="206dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/button_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp">
+
+                <ImageView
+                    android:id="@+id/quizIcon"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:contentDescription="Quiz Icon"
+                    android:src="@drawable/owl_head" />
+
+                <TextView
+                    android:id="@+id/btnQuiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/quiz"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

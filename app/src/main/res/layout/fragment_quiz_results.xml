@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_tiles"
+    android:padding="16dp">
+
+    <!-- Owl Image -->
+    <ImageView
+        android:id="@+id/result_owl"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/owl_point_right"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Congrats Text -->
+    <TextView
+        android:id="@+id/congrats_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cong"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/result_owl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Quiz Complete Text -->
+    <TextView
+        android:id="@+id/completion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quizRes"
+        android:textSize="20sp"
+        android:textColor="#444"
+        app:layout_constraintTop_toBottomOf="@id/congrats_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="4dp" />
+
+    <!-- Score Text -->
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 of 10 answered correctly"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#222"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@id/completion_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Feedback Text -->
+    <TextView
+        android:id="@+id/feedback_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/febckmsg"
+        android:textAlignment="center"
+        android:textColor="#555"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_button_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/score_text" />
+
+    <!-- Horizontal Guideline (for spacing buttons) -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_button_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <!-- Retry Button (Left side) -->
+
+    <!-- Home Button (Right side) -->
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_background"
+        android:text="@string/rtry"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/home_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_button_top"
+        app:layout_constraintWidth_percent="0.48" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_background"
+        android:text="@string/home"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/retry_button"
+        app:layout_constraintTop_toTopOf="@+id/guideline_button_top"
+        app:layout_constraintWidth_percent="0.48" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

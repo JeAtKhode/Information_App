@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_tiles">
+
+    <!-- ScrollView to enable vertical scrolling for content that might exceed screen height -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Main vertical LinearLayout container for informational text -->
+        <LinearLayout
+            android:id="@+id/infoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title TextView showing the main heading of the information section -->
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:text="@string/info2_title"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <!-- Body TextView displaying the main content/details -->
+            <TextView
+                android:id="@+id/bodyTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="12dp"
+                android:text="@string/info2_body"
+                android:textSize="20sp" />
+
+            <!-- Label TextView for additional info or a section label -->
+            <TextView
+                android:id="@+id/extraLabelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="@string/label_info"
+                android:textSize="20sp" />
+
+            <!-- Link TextView with autoLink enabled to detect and open web URLs -->
+            <TextView
+                android:id="@+id/linkTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:text="@string/link_oranga2"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

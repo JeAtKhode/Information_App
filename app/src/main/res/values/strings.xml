@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">InformationApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- About Us -->
+    <string name="team_image_desc">Team Image</string>
+    <string name="section_1_title">Nice to meet you</string>
+    <string name="section_1_body">We are The Kākāpō Guardians creating an app to support Oranga Tamariki during child safety removals. Our goal is to improve how information is shared when a child is escorted from an unsafe environment. We aim to make these difficult moments clearer and less overwhelming for everyone involved.</string>
+    <string name="section_2_title">Our Mission</string>
+    <string name="section_2_body">Our mission is to support tamariki, whānau, and staff during child safety interventions by providing clear, calm, and accessible information through our app. We want to help reduce stress and confusion, making safety-focused removals more respectful and informed.</string>
+
+    <!-- Info 1 -->
+    <string name="info1_title">Learn About Escorting</string>
+    <string name="info1_body">Escorting is the process where tamariki or rangatahi are removed, relocated, or uplifted from their current place of care due to safety concerns or other legal reasons.\n\n<b>Types of Escorts:</b>\n• Emergency Escorting – Happens when a child is in immediate danger.\n• Planned Escorting – Occurs after assessments and coordination with caregivers and authorities.\n• Temporary Escorting – When a child is relocated temporarily for their well-being.\n• Custodial Escorting – Escorting done when Oranga Tamariki becomes the legal custodian.\n\n<b>Expanded:</b>\n\n<b>Learn About Escorting</b>\nUnderstanding the process of escorting is crucial for parents and caregivers involved with Oranga Tamariki. Escorting refers to the supervised movement of tamariki (children) and rangatahi (young people) from one location to another, ensuring their safety and well-being during transitions.\n\n<b>1. What is Escorting?</b>\nEscorting involves the planned and supervised transportation of tamariki or rangatahi, particularly when:\n• They are moving to or from a youth justice residence, remand home, or care and protection residence.\n• They are traveling by air as part of their transition.\n• A risk assessment indicates that escorting is necessary to ensure their safety and well-being.\nThe primary goal is to safeguard the oranga (well-being) of the child or young person, the escorting staff (kaimahi), and the public during transit.\n\n<b>2. When is Escorting Required?</b>\nEscorting is mandated in situations where:\n• The environment poses identified risks to the tamaiti or rangatahi.\n• The child or young person is in the custody of Oranga Tamariki and requires transportation to a different care setting.\n• A risk assessment determines that escorting is necessary for safe travel.\nIt is important to note that escorting is not required when:\n• Another agency, such as the Police or Department of Corrections, has assumed responsibility for the childs transportation.\n• The child is being collected by whānau or family from a residence to return home or to a community placement.\n\n<b>3. Escorting Procedures and Considerations</b>\nKey aspects of the escorting process include:\n• Authorization: Escorts must be approved by the relevant authorizing manager, such as a team leader or site manager.\n• Escort Personnel: Typically, at least two trained escort kaimahi accompany the child, with considerations for gender matching and specific needs.\n• Risk Assessment: A thorough assessment is conducted to identify potential risks and determine the appropriate escorting measures.\n• Communication: Wherever possible, tamariki or rangatahi and their whānau are informed about the escorting plans, including the destination and reasons for the move.\n• Alternative Options: Video conferencing may be considered as an alternative to physical escorting, especially for court appearances or appointments, to minimize stress and logistical challenges.\n\n<b>4. Ensuring the Well-being of Tamariki and Rangatahi</b>\nThroughout the escorting process, the following principles are upheld:\n• Manaakitanga: Respecting the dignity and mana of the child or young person.\n• Safety: Implementing measures to ensure the physical and emotional safety of all parties involved.\n• Transparency: Providing clear and timely information to tamariki or rangatahi and their families, unless doing so poses a risk.\n• Cultural Sensitivity: Recognizing and accommodating the cultural needs and preferences of the child or young person.</string>
+
+    <!-- Info 2 -->
+    <string name="info2_title">Process of Escorting</string>
+    <string name="info2_body">Escorting follows a structured legal process to ensure the protection and rights of tamariki and rangatahi. Understanding each step can help families and caregivers prepare and participate fully.\n\n<b>1. Initial Assessment and Planning</b>\nBefore any escorting occurs, Oranga Tamariki conducts a risk and safety assessment. This determines whether relocation is necessary and identifies the safest approach. Professionals develop a plan outlining the reasons, method, and people involved.\n\n<b>2. Notification and Consent</b>\nWhenever possible, parents or caregivers are informed of the planned escort and are given an opportunity to participate or respond. In emergency situations, notification may happen after the fact due to the urgency.\n\n<b>3. Legal Authorisation</b>\nCertain escorting actions require formal approval or a court order, especially when custody is being altered. The authorisation ensures that the process is legally compliant and that the childs rights are protected.\n\n<b>4. Escort Execution</b>\nTrained staff carry out the escort following approved protocols. Considerations are made for gender, cultural needs, and any health or behavioral challenges the child may face.\n\n<b>5. Post-Escort Review and Support</b>\nAfter the escort, a review is conducted to assess the outcome and any required follow-up. Families may be offered support services to help manage emotional or practical challenges during the transition.</string>
+
+    <!-- Info 3 -->
+    <string name="info3_title">Legal Rights of Parents</string>
+    <string name="info3_body"><b>When Oranga Tamariki begins the process of escorting a tamaiti (child) or rangatahi (young person)</b> from their current care environment, it is essential that parents understand their legal rights.\n\n<b>Right to Be Informed:</b>\nParents have the right to be promptly informed when an escorting decision is made, including the reasons and any immediate actions. They are entitled to access relevant information about the process, such as assessments and plans concerning their child.\n\n<b>Right to Participate in Decision-Making:</b>\nParents also retain the right to be involved in major decisions affecting their childs life, unless a court decides otherwise. This includes participation in Family Group Conferences (FGCs), where family, whānau, and professionals collaborate to make decisions in the childs best interest.\n\n<b>Right to Legal Representation:</b>\nLegal representation is another key right. Parents can seek legal advice and, if eligible, access legal aid to support them during this process.\n\n<b>Right to Challenge Decisions:</b>\nIf parents disagree with a decision, they have the right to challenge it in Family Court. This may involve reviewing custody arrangements or appealing decisions within the legal timeframes.\n\n<b>Right to Maintain Contact:</b>\nAdditionally, parents have the right to maintain contact with their child, depending on what is in the childs best interest. In some cases, contact may be supervised for safety reasons.\n\n<b>Right to Support Services:</b>\nSupport services are also available to help parents cope with the emotional impact of the situation. These services may include counseling and parenting programs, which can assist in addressing concerns and supporting the goal of reunification.</string>
+
+    <!-- Info 4 -->
+    <string name="info4_title">Legal Rights of Caregivers</string>
+    <string name="info4_body">Caregivers play a vital role in supporting tamariki and rangatahi, and they have specific legal rights throughout the escorting process.\n\n<b>Right to Be Informed:</b>\nCaregivers must be informed of any decisions to escort a child from their care. This includes details about when, where, and why the escort is taking place.\n\n<b>Right to Be Heard:</b>\nCaregivers have the right to express their views and concerns, especially if they believe the escort may cause harm or distress to the child.\n\n<b>Right to Support:</b>\nSupport services should be made available to caregivers to help them understand and manage the situation. This may include counseling or legal guidance.\n\n<b>Right to Legal Information:</b>\nCaregivers can access information about the legal framework governing escorting and may seek legal representation if needed.\n\n<b>Right to Respect and Fair Treatment:</b>\nThroughout the process, caregivers should be treated with dignity and respect, and their contributions to the childs well-being should be acknowledged.</string>
+
+    <!-- Shared -->
+    <string name="label_info">For more information, head to</string>
+    <string name="link_oranga1">https://practice.orangatamariki.govt.nz/</string>
+    <string name="link_oranga2">https://practice.orangatamariki.govt.nz/</string>
+    <string name="link_oranga3">https://practice.orangatamariki.govt.nz/</string>
+    <string name="link_oranga4">https://practice.orangatamariki.govt.nz/</string>
+
+    <!-- About kauri -->
+    <string name="about_kauri">About Kauri</string>
+    <string name="back">Back</string>
+    <string name="about">Kauri the Kākāpō is more than just a character — he represents safety, guidance, and reassurance during a time of uncertainty.\n\nKauri was raised in a protected forest where care, trust, and community were at the heart of every interaction. When he learned that some children were facing frightening or confusing situations, he became committed to supporting them with compassion and strength.\n\nNow, Kauri appears in this app as a calming, familiar presence. He helps tamariki understand what is happening around them, offers simple explanations, and reassures them that they are not alone.\n\nThrough stories and gentle interactions, Kauri promotes a sense of emotional safety while respecting each childs unique experience. Though he is small, Kauri symbolizes <b>courage, empathy, and resilience</b> — values we hope to share with every child and their whānau during challenging transitions.</string>
+
+
+    <!-- Disclaimer kauri -->
+    <string name="disclaimer_title">DISCLAIMER</string>
+    <string name="disclaimer">The information provided in this application is for general informational purposes only. All information is provided in good faith however, we make no representation or warranty of any kind regarding the accuracy, adequacy, validity, reliability, or completeness of any information on the app.\n\nBy tapping Accept, you agree that you understand this disclaimer and agree to use the app at your own discretion.</string>
+    <string name="accept">Accept</string>
+
+    <!-- Splash screen -->
+    <string name="awai_title">AWAI</string>
+    <string name="app_title">Information Application</string>
+
+    <!-- Home screen -->
+    <string name="learnmore">LEARN MORE</string>
+    <string name="info1_content">Escorting is a safety process used when children or youth in Oranga Tamarikis care need to travel and there are safety concerns. It ensures the journey is secure and respectful.</string>
+    <string name="info2_content">This involves planning, risk assessment, and selecting staff to safely transport young people while maintaining their dignity.</string>
+    <string name="info3_content">Parents have the right to be informed and involved in decisions about their child unless restricted by the court or safety reasons.</string>
+    <string name="info4_content">Caregivers have the right to be consulted, informed, and involved in the childs care, including during travel.</string>
+    <string name="quiz">Quiz</string>
+    <string name="welcome_home">Kia Ora. Welcome !</string>
+    <string name="learn_us">Learn with us</string>
+
+    <!--lang toggle -->
+    <string name="lang">Te Reo Māori</string>
+    <string name="aboutUs">About Us</string>
+    <string name="oranga">Oranga Tamariki</string>
+    <string name="massey">Massey University</string>
+    <string name="emrgcy">Emergency Hotline</string>
+    <string name="home">Home</string>
+
+    <!-- Toolbar -->
+    <string name="quiz_title">QUIZ</string>
+
+    <!-- Navigation Buttons -->
+    <string name="button_back">&lt; BACK</string>
+    <string name="button_next">NEXT &gt;</string>
+
+    <!-- Sample Placeholder -->
+    <string name="sample_question">Full question text goes here.</string>
+
+    <!-- Answer Choices -->
+    <string name="answer_true">TRUE</string>
+    <string name="answer_false">FALSE</string>
+
+    <!-- Quiz Format -->
+    <string name="question_label">Question %1$d: %2$s</string>
+
+    <!-- Questions -->
+    <string name="question1">At least 2 escort kaimahi, who are appropriately trained in de-escalation and safety interventions, are required for every youth justice escort?</string>
+    <string name="question2">Escort kaimahi must always be the same gender as te tamaiti or rangatahi being escorted?</string>
+    <string name="question3">For air travel involving youth justice, one escort must be authorized to carry handcuffs and trained to use them?</string>
+    <string name="question4">Escorts can carry out their tasks even if a risk assessment has not been conducted, as long as they believe the situation is safe?</string>
+    <string name="question5">When escorting, the welfare of te tamaiti or rangatahi is the primary focus, including planned stops and ensuring they feel secure?</string>
+    <string name="question6">After-hours escorts only require approval from the National Contact Centre if the escort is unscheduled?</string>
+    <string name="question7">If an escort by air involves a youth justice residence, at least 1 escort kaimahi must be trained to carry and use handcuffs?</string>
+    <string name="question8">Escort kaimahi are required to ensure that all stops are planned and recorded, including meal and bathroom breaks?</string>
+    <string name="question9">Escort kaimahi must ensure they have a fully charged mobile phone and emergency contact details?</string>
+    <string name="question10">Escort kaimahi are responsible for ensuring te tamaiti or rangatahi is supervised at all times, including during any breaks or stops?</string>
+
+    <string name="results">Results</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="firstquest">"You're already at the first question!"</string>
+    <string name="lastquest">"That's the last question!"</string>
+    <string name="score">Score</string>
+    <string name="total">Total</string>
+
+    <string name="cong">Congratulations</string>
+    <string name="quizRes">Quiz Complete</string>
+    <string name="febckmsg">Feedback message</string>
+
+    <string name="rtry">Retry</string>
+    <string name="nity">Excellent work!</string>
+    <string name="senty">You are doing really well.</string>
+    <string name="fity">Not bad! Keep at it.</string>
+    <string name="fail">Give it another go – you will get there!</string>
+    <string name="youscored">You scored </string>
+    <string name="outof"> out of </string>
+
+    <string name="langToast">Language switched to English</string>
+
+
+
+
+
+
+</resources>

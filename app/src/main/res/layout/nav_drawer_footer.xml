@@ -1,0 +1,19 @@
+<!-- LinearLayout container for the drawer footer -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Footer TextView displaying build and license information -->
+    <TextView
+        android:id="@+id/drawer_footer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Build number 1.0.0\nLicensed by Massey University 2025\nMassey Business School 1 University Avenue, Albany, Auckland 0632"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="720sp"
+        android:lineSpacingExtra="4dp" />
+</LinearLayout>
