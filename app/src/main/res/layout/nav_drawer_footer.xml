@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Footer TextView displaying build and license information #690sp -->
+    <!-- Footer TextView displaying build and license information #660sp -->
     <TextView
         android:id="@+id/drawer_footer_text"
         android:layout_width="match_parent"
@@ -14,6 +14,6 @@
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         android:gravity="center"
-        android:layout_marginTop="720sp"
+        android:layout_marginTop="660sp"
         android:lineSpacingExtra="4dp" />
 </LinearLayout>
