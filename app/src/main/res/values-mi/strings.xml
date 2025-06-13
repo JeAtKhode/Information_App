@@ -115,6 +115,12 @@
     <string name="outof"> i roto i te </string>
 
     <string name="langToast">Kua hurihia te reo ki te Reo Māori</string>
+    <string name="tutorial">Akoranga</string>
+
+    <string name="video1">Whakakāhoretanga me te Reo</string>
+    <string name="video2">Kāinga me te Ākoranga Anō</string>
+    <string name="video3">Wāhanga Uiui</string>
+    <string name="video4">Tahuaroto Whakaterenga</string>
 
 
 </resources>

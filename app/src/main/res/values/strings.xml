@@ -116,6 +116,12 @@
     <string name="outof"> out of </string>
 
     <string name="langToast">Language switched to English</string>
+    <string name="tutorial">Tutorial</string>
+
+    <string name="video1">Discalimer and Language</string>
+    <string name="video2">Home and Learn More</string>
+    <string name="video3">Quiz Section</string>
+    <string name="video4">Navigation Menu</string>
 
 
 

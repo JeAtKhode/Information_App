@@ -97,4 +97,8 @@
             android:id="@+id/action_resultFragment2_to_homeFragment"
             app:destination="@id/homeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/tutorialFragment"
+        android:name="com.InformationApplication.Awai.TutorialFragment"
+        android:label="@string/tutorial" />
 </navigation>

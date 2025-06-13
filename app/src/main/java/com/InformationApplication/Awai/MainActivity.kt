@@ -57,6 +57,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.homeFragment -> navController.navigate(R.id.homeFragment)
                 R.id.aboutus -> navController.navigate(R.id.aboutus)
                 R.id.aboutkauri -> navController.navigate(R.id.aboutkauri)
+                R.id.tutorial -> navController.navigate(R.id.tutorialFragment)
                 R.id.orangaTamariki -> {
                     val browserIntent = Intent(Intent.ACTION_VIEW,
                         Uri.parse("https://www.orangatamariki.govt.nz/"))

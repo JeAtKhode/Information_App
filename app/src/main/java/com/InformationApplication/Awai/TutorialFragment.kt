@@ -24,7 +24,7 @@ class TutorialFragment : Fragment(R.layout.fragment_tutorial) {
             "android.resource://${requireContext().packageName}/${R.raw.sample4}"
         )
 
-        // Reference the VideoViews from the fragment layout
+        // Reference the VideoViews from the layout
         val videoViews = listOf(
             view.findViewById<VideoView>(R.id.videoView1),
             view.findViewById<VideoView>(R.id.videoView2),
@@ -32,15 +32,17 @@ class TutorialFragment : Fragment(R.layout.fragment_tutorial) {
             view.findViewById<VideoView>(R.id.videoView4)
         )
 
-        // Set up each video
+        // Setup each video with controller and autoplay
         for (i in videoViews.indices) {
             val videoUri = Uri.parse(videoUrls[i])
             val mediaController = MediaController(requireContext())
             mediaController.setAnchorView(videoViews[i])
+
             videoViews[i].apply {
                 setMediaController(mediaController)
                 setVideoURI(videoUri)
                 requestFocus()
+                start() // Autoplay video
             }
         }
     }

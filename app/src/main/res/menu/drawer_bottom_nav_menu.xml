@@ -27,6 +27,10 @@
         android:id="@+id/aboutkauri"
         android:title="@string/about_kauri" />
     <item
+        android:icon="@drawable/tutorial"
+        android:id="@+id/tutorial"
+        android:title="@string/tutorial" />
+    <item
         android:id="@+id/language"
         android:title="@string/lang"
         android:icon="@drawable/lang"/>
