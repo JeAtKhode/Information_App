@@ -18,10 +18,10 @@ class TutorialFragment : Fragment(R.layout.fragment_tutorial) {
 
         // Video resource URLs
         val videoUrls = listOf(
-            "android.resource://${requireContext().packageName}/${R.raw.sample1}",
-            "android.resource://${requireContext().packageName}/${R.raw.sample2}",
-            "android.resource://${requireContext().packageName}/${R.raw.sample3}",
-            "android.resource://${requireContext().packageName}/${R.raw.sample4}"
+            "android.resource://${requireContext().packageName}/${R.raw.disclaimer}",
+            "android.resource://${requireContext().packageName}/${R.raw.home}",
+            "android.resource://${requireContext().packageName}/${R.raw.quiz}",
+            "android.resource://${requireContext().packageName}/${R.raw.navmenu}"
         )
 
         // Reference the VideoViews from the layout
